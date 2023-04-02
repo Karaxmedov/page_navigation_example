@@ -2,16 +2,9 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 
-class BluePage extends StatefulWidget {
-  const BluePage({super.key});
-
-  @override
-  State<BluePage> createState() => _BluePageState();
-}
-
-class _BluePageState extends State<BluePage> {
+class BluePage extends StatelessWidget {
+  BluePage({super.key});
   int _a = 0;
-
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
